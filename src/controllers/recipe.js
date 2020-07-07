@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
         .map(i => i.trim()) // delete extra whitespaces
         .sort(); // and sort alphabetically
 
-    console.log("*** RecipeController.keywords", keywords);
+    //console.log("*** RecipeController.keywords", keywords);
 
     if (ingredients !== '') {
         const recipePuppyResults = await getRecipePuppyData(keywords);
