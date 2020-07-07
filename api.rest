@@ -16,7 +16,7 @@ Content-Type: {{contentType}}
 
 ### Get Recipes
 
-GET {{baseUrl}}?i=
+GET {{baseUrl}}?i=tomato,cheese,potato,carrot
 Content-Type: {{contentType}}
 
 

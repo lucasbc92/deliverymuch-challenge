@@ -13,6 +13,7 @@ router.get('/', async (req, res) => {
     const keywords = ingredients
         .toLowerCase() // lower case string characters for sorting 
         .split(",") // split ingredients string by comma into an array
+        .slice(0,3) // get three first ingredients (the maximum number of ingredients are three)
         .map(i => i.trim()) // delete extra whitespaces
         .sort(); // and sort alphabetically
 
