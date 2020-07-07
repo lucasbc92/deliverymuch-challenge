@@ -1,0 +1,22 @@
+@baseUrl = http://localhost:3003
+@apiKey = Ts1qp4oNE3zcGyAeWMS3uZ675A01mtSa
+@contentType = application/json
+
+### Recipe Puppy API Test
+
+GET http://www.recipepuppy.com/api/?i=onions,garlic&q=omelet&p=1
+Content-Type: {{contentType}}
+
+
+### GIPHY API Test
+
+GET http://api.giphy.com/v1/gifs/search?api_key={{apiKey}}&q=Guacamole Dip Recipe
+Content-Type: {{contentType}}
+
+
+### Get Recipes
+
+GET {{baseUrl}}?i=Tomato,parmesan cheese
+Content-Type: {{contentType}}
+
+
