@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:3003
+@baseUrl = http://localhost:3003/recipes/
 @apiKey = Ts1qp4oNE3zcGyAeWMS3uZ675A01mtSa
 @contentType = application/json
 
@@ -16,7 +16,7 @@ Content-Type: {{contentType}}
 
 ### Get Recipes
 
-GET {{baseUrl}}?i=Tomato,parmesan cheese
+GET {{baseUrl}}?i=
 Content-Type: {{contentType}}
 
 
