@@ -3,7 +3,6 @@ const axios = require('axios');
 const getRecipePuppyData = async (keywords) => {
     const recipePuppyApiUrl = `http://www.recipepuppy.com/api/?i=${keywords.join(',')}&p=3`;
     //get results from third page (p=3) because first and second page recipes are too simple, with few ingredients.
-
     //console.log("*** RecipeController.recipePuppyApiUrl", recipePuppyApiUrl);
 
     let recipePuppyResponse;
