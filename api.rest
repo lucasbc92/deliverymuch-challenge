@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:3003/recipes/
+@baseUrl = http://localhost:8080/recipes/
 @apiKey = Ts1qp4oNE3zcGyAeWMS3uZ675A01mtSa
 @contentType = application/json
 
